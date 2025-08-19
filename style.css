@@ -3,7 +3,7 @@
   --cor-principal: #98fb98; /* Verde claro */
   --cor-secundaria: #4682b4; /* Azul */
   --cor-destaque: #ff6347; /* Tom de laranja, para destaque */
-  --cor-texto: #fff; /* Cor do texto */
+  --cor-texto: #000; /* Cor do texto */
 }
 
 body {
