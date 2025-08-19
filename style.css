@@ -1,1 +1,43 @@
+:root {
+  --cor-fundo: #2e8b57; /* Verde mais escuro, representando natureza */
+  --cor-principal: #98fb98; /* Verde claro */
+  --cor-secundaria: #4682b4; /* Azul */
+  --cor-destaque: #ff6347; /* Tom de laranja, para destaque */
+  --cor-texto: #fff; /* Cor do texto */
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.caixa-principal {
+  background-color: var(--cor-principal);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: var(--cor-destaque);
+}
+
+button {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--cor-destaque);
+  color: var(--cor-principal);
+}
 
